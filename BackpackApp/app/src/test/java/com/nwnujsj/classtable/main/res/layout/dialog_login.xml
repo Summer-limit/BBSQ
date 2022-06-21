@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff9fc5eb" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@+id/et_login_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:hint="请输入账号" />
+    <EditText android:id="@+id/et_login_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:hint="请输入密码" android:password="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip">
+        <Button android:id="@+id/btn_login_ok" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="登录" android:layout_weight="1.0" />
+        <Button android:id="@+id/btn_login_quit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="取消" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

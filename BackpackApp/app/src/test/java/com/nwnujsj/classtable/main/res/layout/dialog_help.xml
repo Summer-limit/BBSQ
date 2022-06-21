@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff9fc5eb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@+id/scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="6.0dip" android:text="帮助与反馈" android:layout_weight="1.0" />
+            <TextView android:textSize="13.0dip" android:textColor="#ff000000" android:gravity="left" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:text="1.打开软件后首先会停留在课程表页面，用户可以点击下方的设置菜单进入设置页面。在设置页面用户选择账号登录按钮，接着输入自己教务系统的账号和密码并且在连接校园网nwnu的情况下即可登录成功，登录完成后,可以进行其他相应的操作。\n2.在课程表页面可以查看当前周的课表，课表是根据单双周来显示的。\n3.在个性化页面,主要提供了成绩查询、铃音管理和校历查询等功能。成绩查询用户可以选择某一学期的成绩来查询，也可以查询当前所有的成绩信息，并提供了一键计算绩点的功能。铃音管理则是用来控制是否开启根据课表自动调节手机铃音状态的功能。\n4.在设置页面还提供了设置当前周、消息提醒以及软件介绍的功能。\n5.在使用本软件的过程中你遇到任何的问题或者有更好的改进建议，你可以加入我们的交流群来反馈给我们，QQ群号：931134098" android:layout_weight="8.0" android:lineSpacingMultiplier="1.5" />
+            <Button android:id="@+id/btn_help_back" android:layout_width="fill_parent" android:layout_height="0.5dip"
+                    android:text="返回" android:layout_weight="1.0"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

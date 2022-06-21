@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+    <style name="myStyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/actionStyle</item>
+    </style>
+    <style name="actionStyle" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@color/q_blue</item>
+        <item name="android:titleTextStyle">@style/titleStyle</item>
+    </style>
+    <style name="titleStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

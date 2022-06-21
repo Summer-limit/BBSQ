@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff9fc5eb" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mytools="http://schemas.android.com/apk/res/com.nwnujsj.classtable">
+    <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="铃音管理" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:text="自动铃音调节" android:layout_weight="6.0" />
+        <com.nwnujsj.classtable.customview.MySlideSwitch android:layout_gravity="center_vertical" android:id="@+id/myslideSwitch" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:layout_weight="2.0" mytools:radius="12.0dip" mytools:textSize="20" mytools:switchOnColor="#ff6ab344" mytools:switchOffColor="#ffd8d8d8" mytools:circleColor="#fff9f9f9" mytools:textColor="#ff000000" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <Button android:id="@+id/btn_ringmanager_quit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="取消" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff9fc5eb" android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@+id/scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center"
+                      android:layout_width="fill_parent" android:layout_height="0.0dip"
+                      android:layout_marginTop="6.0dip" android:text="关于我们" android:layout_weight="1.0"/>
+            <TextView android:textSize="13.0dip" android:textColor="#ff000000" android:gravity="left"
+                      android:layout_width="fill_parent" android:layout_height="0.0dip"
+                      android:layout_marginTop="10.0dip"
+                      android:text="1.本项目为西北师范大学“学生创新能力计划”2018年支持项目”\n2.如果大家有更好的建议或者想法,欢迎大家加入我们的交流群给我们提出您宝贵的建议,QQ群号：931134098\n3.最后，智慧课堂项目组向所有在开发软件过程中给予过我们帮助人表示真心的感谢！\n4.本软件所有权归西北师范大学计算机科学与工程学院智慧课堂项目组所有。"
+                      android:layout_weight="8.0" android:lineSpacingMultiplier="2.0"/>
+            <Button android:id="@+id/btn_about_back" android:layout_width="fill_parent" android:layout_height="0.5dip"
+                    android:text="返回" android:layout_weight="1.0"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
