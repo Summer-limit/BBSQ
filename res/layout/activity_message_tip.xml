@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ff9fc5eb" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="8.0dip">
-        <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="添加需要提醒的事件" android:layout_weight="20.0" />
-        <Button android:textColor="#ff000000" android:gravity="center" android:id="@+id/btn_add_event" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="+" android:layout_weight="5.0" />
-    </LinearLayout>
-    <ListView android:id="@+id/lv_message_addtips" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
-</LinearLayout>
